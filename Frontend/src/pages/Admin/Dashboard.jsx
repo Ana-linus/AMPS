@@ -67,15 +67,15 @@ const AdminDashboard = () => {
             <CardContainer>
               <Card>
                 <CardTitle>Total Students</CardTitle>
-                <CardContent>500</CardContent>
+                <CardContent>100</CardContent>
               </Card>
               <Card>
                 <CardTitle>Total Teachers</CardTitle>
-                <CardContent>50</CardContent>
+                <CardContent>10</CardContent>
               </Card>
               <Card>
                 <CardTitle>Total Classes</CardTitle>
-                <CardContent>50</CardContent>
+                <CardContent>10</CardContent>
               </Card>
             </CardContainer>
           </Section>
