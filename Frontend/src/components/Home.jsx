@@ -23,7 +23,7 @@ const Home = () => {
         <Logo src={bg1} alt="Logo" />
         <NavigationLinks>
           <NavLink href="#">About Us</NavLink>
-          <NavLink href="#">Products</NavLink>
+          <NavLink href="#">Service</NavLink>
           <NavLink href="#">Contact Us</NavLink>
         </NavigationLinks>
         <ButtonsContainer>
@@ -33,7 +33,7 @@ const Home = () => {
       </Navbar>
       <HomeContainer>
         <SchoolInfo>
-          <Title>School Management System</Title>
+          <Title>AMPS School Management System</Title>
           <LoremTextContainer>
             <p>{loremText}</p>
           </LoremTextContainer>

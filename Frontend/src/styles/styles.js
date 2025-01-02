@@ -11,9 +11,9 @@ export const Navbar = styled.nav`
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #6BD4E7;
-  color: black;
-  font-family: Arial, sans-serif;
+  background-color: #3A6EA5; /* Updated navbar color for better contrast */
+  color: #F0F8FF; /* Lightened text color */
+  font-family: 'Roboto', sans-serif;
   z-index: 1000;
 
   @media screen and (max-width: 768px) {
@@ -42,13 +42,14 @@ export const NavigationLinks = styled.div`
 
 export const NavLink = styled.a`
   margin-right: 20px;
-  color: black;
+  color: #F0F8FF; /* Lightened text color for consistency */
   text-decoration: none;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
 
   &:hover {
     text-decoration: underline;
+    color: #FFCC00; /* Vibrant gold hover color */
   }
 
   @media screen and (max-width: 768px) {
@@ -69,14 +70,18 @@ export const ButtonsContainer = styled.div`
 `;
 
 export const LoginButton = styled.button`
-  background-color: orange;
-  color: white;
+  background-color: #2874A6; /* Adjusted to a richer blue */
+  color: #FFFFFF;
   border: none;
   padding: 10px 20px;
   margin-right: 10px;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
+
+  &:hover {
+    background-color: #5B9BD5; /* Lighter blue hover color */
+  }
 
   @media screen and (max-width: 768px) {
     padding: 8px 16px;
@@ -85,19 +90,19 @@ export const LoginButton = styled.button`
 `;
 
 export const GuestButton = styled.button`
-  color: white;
-  border: none;
+  color: #2874A6;
+  border: 2px solid #2874A6;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  border: 2px solid orange;
   border-radius: 5px;
   background-color: transparent;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 
   &:hover {
-    background-color: orange;
+    background-color: #2874A6;
+    color: #FFFFFF;
   }
 
   @media screen and (max-width: 768px) {
@@ -111,7 +116,7 @@ export const HomeContainer = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: linear-gradient(45deg, #6BD4E7, #6FC3DF);
+  background: linear-gradient(45deg, #3A6EA5, #2874A6); /* Softened gradient */
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -140,7 +145,7 @@ export const SchoolImage = styled.img`
 export const Title = styled.h1`
   font-size: 36px;
   font-weight: bold;
-  color: white;
+  color: #F0F8FF;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   @media screen and (max-width: 768px) {
@@ -152,7 +157,7 @@ export const LoremTextContainer = styled.div`
   max-width: 800px;
   margin: 0 auto;
   font-size: 18px;
-  color: white;
+  color: #EAECEE; /* Softer text color */
   text-align: justify;
   padding: 0 20px;
 
@@ -162,7 +167,7 @@ export const LoremTextContainer = styled.div`
 `;
 
 export const AdminRegisterLink = styled(Link)`
-  color: white;
+  color: #F0F8FF;
   font-size: 12px;
   font-weight: bold;
   text-decoration: none;
@@ -170,9 +175,11 @@ export const AdminRegisterLink = styled(Link)`
 
   &:hover {
     text-decoration: underline;
+    color: #FFCC00; /* Vibrant gold hover color */
   }
 
   @media screen and (max-width: 768px) {
     font-size: 10px;
   }
 `;
+
