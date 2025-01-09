@@ -18,11 +18,11 @@ const StudentDashboard = () => {
             </Card>
             <Card>
               <CardTitle>Performance</CardTitle>
-              <CardContent>500</CardContent>
+              <CardContent>100%</CardContent>
             </Card>
             <Card>
               <CardTitle>Term</CardTitle>
-              <CardContent>1</CardContent>
+              <CardContent>Second</CardContent>
             </Card>
           </CardContainer>
         </Section>

@@ -6,11 +6,11 @@ from '../../styles/SettingsProfileStyles';
 
 const TeacherProfileSection = () => {
   const [teacherInfo, setTeacherInfo] = useState({
-    name: 'John Doe',
-    email: 'johndoe@example.com',
+    name: 'Anagha  Ofure',
+    email: 'ootoigiaghale@gmail.com',
     phone: '123-456-7890',
-    address: '123 Main St, City, Country',
-    qualification: 'Master of Education',
+    address: '5 Abhulimen St, Ekpoma, Edo state, Nigeria',
+    qualification: 'PGDE',
   });
 
   return (

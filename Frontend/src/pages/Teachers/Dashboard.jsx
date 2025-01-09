@@ -13,16 +13,16 @@ const TeacherDashboard = () => {
           <SectionTitle>Overview</SectionTitle>
           <CardContainer>
             <Card>
-              <CardTitle>Total Students</CardTitle>
+              <CardTitle>No of Students</CardTitle>
               <CardContent>500</CardContent>
             </Card>
             <Card>
-              <CardTitle>Total Teachers</CardTitle>
-              <CardContent>50</CardContent>
+              <CardTitle>No of Teachers</CardTitle>
+              <CardContent>10</CardContent>
             </Card>
             <Card>
-              <CardTitle>Total Classes</CardTitle>
-              <CardContent>50</CardContent>
+              <CardTitle>No of Classes</CardTitle>
+              <CardContent>10</CardContent>
             </Card>
           </CardContainer>
         </Section>

@@ -1,4 +1,4 @@
-// styles.js
+// Updated src/styles/styles.js
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -11,8 +11,8 @@ export const Navbar = styled.nav`
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #3A6EA5; /* Updated navbar color for better contrast */
-  color: #F0F8FF; /* Lightened text color */
+  background-color: #3A6EA5;
+  color: #F0F8FF;
   font-family: 'Roboto', sans-serif;
   z-index: 1000;
 
@@ -40,16 +40,16 @@ export const NavigationLinks = styled.div`
   }
 `;
 
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
   margin-right: 20px;
-  color: #F0F8FF; /* Lightened text color for consistency */
+  color: #F0F8FF;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
 
   &:hover {
     text-decoration: underline;
-    color: #FFCC00; /* Vibrant gold hover color */
+    color: #FFCC00;
   }
 
   @media screen and (max-width: 768px) {
@@ -58,128 +58,48 @@ export const NavLink = styled.a`
   }
 `;
 
-export const ButtonsContainer = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: 35px;
-
-  @media screen and (max-width: 768px) {
-    margin-top: 10px;
-    margin-right: 0;
-  }
-`;
-
-export const LoginButton = styled.button`
-  background-color: #2874A6; /* Adjusted to a richer blue */
-  color: #FFFFFF;
-  border: none;
-  padding: 10px 20px;
-  margin-right: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-
-  &:hover {
-    background-color: #5B9BD5; /* Lighter blue hover color */
-  }
-
-  @media screen and (max-width: 768px) {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-`;
-
-export const GuestButton = styled.button`
-  color: #2874A6;
-  border: 2px solid #2874A6;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
-  background-color: transparent;
-  transition: background-color 0.3s ease, color 0.3s ease;
-
-  &:hover {
-    background-color: #2874A6;
-    color: #FFFFFF;
-  }
-
-  @media screen and (max-width: 768px) {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-`;
-
-export const HomeContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+export const AboutContainer = styled.div`
+  padding: 20px;
+  background-color: #f4f4f4;
   text-align: center;
-  background: linear-gradient(45deg, #3A6EA5, #2874A6); /* Softened gradient */
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  padding-top: 80px;
-
-  @media screen and (max-width: 768px) {
-    padding-top: 60px;
-  }
-`;
-
-export const SchoolInfo = styled.div`
-  margin-top: 20px;
-`;
-
-export const SchoolImage = styled.img`
-  width: 80%;
-  max-height: 80vh;
-  object-fit: cover;
-  margin-top: 20px;
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-  }
-`;
-
-export const Title = styled.h1`
-  font-size: 36px;
-  font-weight: bold;
-  color: #F0F8FF;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
-  @media screen and (max-width: 768px) {
-    font-size: 28px;
-  }
-`;
-
-export const LoremTextContainer = styled.div`
-  max-width: 800px;
   margin: 0 auto;
-  font-size: 18px;
-  color: #EAECEE; /* Softer text color */
-  text-align: justify;
-  padding: 0 20px;
-
-  @media screen and (max-width: 768px) {
-    font-size: 16px;
-  }
+  max-width: 1200px;
 `;
 
-export const AdminRegisterLink = styled(Link)`
-  color: #F0F8FF;
-  font-size: 12px;
+export const AboutTitle = styled.h1`
+  font-size: 2.5em;
+  color: #333;
   font-weight: bold;
-  text-decoration: none;
-  margin-top: 10px;
+  margin-bottom: 20px;
+`;
 
-  &:hover {
-    text-decoration: underline;
-    color: #FFCC00; /* Vibrant gold hover color */
-  }
+export const AboutDescription = styled.p`
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 30px;
+`;
 
-  @media screen and (max-width: 768px) {
-    font-size: 10px;
-  }
+export const AboutImage = styled.img`
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+`;
+
+export const Section = styled.div`
+  margin-top: 40px;
+`;
+
+export const SectionTitle = styled.h2`
+  font-size: 2em;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 15px;
+`;
+
+export const SectionText = styled.p`
+  font-size: 1.1em;
+  color: #666;
 `;
 

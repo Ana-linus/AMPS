@@ -1,8 +1,8 @@
-// Updated src/components/AboutUs.jsx
+// src/components/AboutUs.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Logo, NavigationLinks, NavLink, AboutContainer, AboutTitle, AboutDescription, Section, SectionTitle, SectionText, AboutImage } from '../styles/styles';
-import aboutImage from '../assets/about-image.jpg';
+import { Navbar, Logo, NavigationLinks, NavLink, AboutContainer, AboutTitle, AboutDescription, Section, SectionTitle, SectionText, AboutImage } from '../styles/styles'; 
+import aboutImage from '../assets/about-image.jpg'; // You can add a relevant image for the page
 
 const AboutUs = () => {
   return (
@@ -66,3 +66,4 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+

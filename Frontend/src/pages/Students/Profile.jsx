@@ -15,11 +15,11 @@ import {
 const ProfileSection = () => {
   // Sample student profile data
   const studentProfile = {
-    name: 'John Doe',
-    age: 18,
-    grade: '12th',
-    school: 'Example High School',
-    email: 'john.doe@example.com'
+    name: 'Anagha Lenis',
+    age: 5,
+    grade: 'Nursery three',
+    school: 'AMPS',
+    email: 'linusanagha37@example.com'
   };
 
   return (
