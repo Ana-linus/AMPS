@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Logo, NavigationLinks, NavLink, AboutContainer, AboutTitle, AboutDescription, Section, SectionTitle, SectionText, AboutImage } from '../styles/styles'; 
-import aboutImage from '../assets/about-image.jpg'; // You can add a relevant image for the page
+import aboutImage from '../assets/about-image.jpg'; 
 
 const AboutUs = () => {
   return (
